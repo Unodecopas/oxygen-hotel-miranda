@@ -1,0 +1,72 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__describe {
+    padding: 2.375rem 1.875rem 10.9375rem 1.25rem;
+    background-color: $bg-light-dark;
+    & h2 {
+      color: $font-semi;
+      margin-bottom: 2rem;
+    }
+    & h3 {
+      margin-bottom: 1rem;
+    }
+    & p {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #777777;
+      margin-bottom: 1.5rem;
+    }
+    & button {
+      width: 13.5rem;
+    }
+  }
+  &__container {
+    position: relative;
+    top: -7.1875rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 0 3.25rem;
+
+    &__white {
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      background-image: url("../icons/team-background.png");
+      background-repeat: no-repeat;
+      background-size: 9rem 6.5625rem;
+      background-position: top right;
+      margin-bottom: 2.8125rem;
+    }
+    &__black {
+      background-color: $bg-dark;
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+      color: $font-light;
+      padding-top: 3.375rem;
+      padding-bottom: 2.375rem;
+    }
+    & h4 {
+      margin-top: 1.8462rem;
+      margin-bottom: 1.3125rem;
+    }
+    & p {
+      padding: 0 2.1875rem;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      text-align: center;
+    }
+  }
+  &__img {
+    margin-bottom: 3.375rem;
+  }
+}
