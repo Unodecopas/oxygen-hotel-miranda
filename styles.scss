@@ -1,6 +1,7 @@
-@import "./styles/colors.scss";
-@import "./styles/header.scss";
-@import "./styles/footer.scss";
+@import "./styles/_colors.scss";
+@import "./styles/_header.scss";
+@import "./styles/_footer.scss";
+@import "./styles/_home.scss";
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 html,
@@ -20,8 +21,24 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 0.7rem;
-  letter-spacing: 2.6px;
+  letter-spacing: 0.1625rem;
   text-transform: uppercase;
+}
+h2 {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.81rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+}
+h3 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.3rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
 }
 .hidden {
   display: none;
