@@ -1,0 +1,25 @@
+.videos {
+  background-color: $bg-dark;
+  color: $font-light;
+  padding: 4rem 1.25rem 3rem 1.25rem;
+  & h2 {
+    color: $colored;
+    margin-bottom: 2rem;
+  }
+  & h3 {
+    padding-right: 1.5625rem;
+    margin-bottom: 1rem;
+  }
+  & p {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #c2c2c2;
+    margin-bottom: 2rem;
+  }
+  & button {
+    margin-top: 2rem;
+  }
+}

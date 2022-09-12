@@ -4,6 +4,7 @@
 @import "./styles/_home.scss";
 @import "./styles/_about.scss";
 @import "./styles/_rooms.scss";
+@import "./styles/_videos.scss";
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 html,
@@ -39,7 +40,7 @@ h3 {
   font-family: "Old Standard TT";
   font-style: normal;
   font-weight: 400;
-  font-size: 3.3rem;
+  font-size: 3.3125rem;
   line-height: 3.75rem;
   letter-spacing: -0.075rem;
   text-transform: capitalize;

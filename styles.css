@@ -280,6 +280,32 @@
   font-size: 1rem;
 }
 
+.videos {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 4rem 1.25rem 3rem 1.25rem;
+}
+.videos h2 {
+  color: #bead8e;
+  margin-bottom: 2rem;
+}
+.videos h3 {
+  padding-right: 1.5625rem;
+  margin-bottom: 1rem;
+}
+.videos p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #c2c2c2;
+  margin-bottom: 2rem;
+}
+.videos button {
+  margin-top: 2rem;
+}
+
 html,
 * {
   box-sizing: border-box;
@@ -316,7 +342,7 @@ h3 {
   font-family: "Old Standard TT";
   font-style: normal;
   font-weight: 400;
-  font-size: 3.3rem;
+  font-size: 3.3125rem;
   line-height: 3.75rem;
   letter-spacing: -0.075rem;
   text-transform: capitalize;
