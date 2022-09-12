@@ -2,6 +2,7 @@
 @import "./styles/_header.scss";
 @import "./styles/_footer.scss";
 @import "./styles/_home.scss";
+@import "./styles/_about.scss";
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 html,
@@ -31,6 +32,7 @@ h2 {
   font-size: 0.81rem;
   line-height: 1.125rem;
   letter-spacing: 0.175rem;
+  text-transform: uppercase;
 }
 h3 {
   font-family: "Old Standard TT";
@@ -39,9 +41,46 @@ h3 {
   font-size: 3.3rem;
   line-height: 3.75rem;
   letter-spacing: -0.075rem;
+  text-transform: capitalize;
+}
+h4 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.0563rem;
 }
 .hidden {
   display: none;
+}
+.btn {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.175rem;
+  text-transform: uppercase;
+  background-color: $bg-semi;
+  color: $font-light;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  width: 13.5625rem;
+  height: 3.75rem;
+  padding: 1.375rem;
+  &__primary {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+    letter-spacing: 0.175rem;
+    text-transform: uppercase;
+    background-color: $btn-primary;
+    border: none;
+    color: $font-light;
+    padding: 1.375rem;
+  }
 }
 a,
 a:visited {

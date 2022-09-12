@@ -54,22 +54,152 @@
 }
 
 .home {
-  background-color: #333333;
+  background-color: #ffffff;
   color: #ffffff;
-  padding: 4.68rem 0 4.68rem 1.25rem;
+  padding-bottom: 3.75rem;
 }
-.home h2,
-.home h3 {
+.home__describe {
+  background-color: #333333;
+  padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
+}
+.home__describe h2,
+.home__describe h3 {
+  padding-left: 1.25rem;
   margin-bottom: 2.5rem;
 }
-.home__btns {
+.home__describe__btns {
+  padding-left: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
-.home__btns button {
+.home__describe__btns button {
   width: 13.5625rem;
   height: 3.75rem;
+  padding: 1.375rem;
+}
+.home__form {
+  padding-bottom: 2.25rem;
+  width: 100%;
+  background-color: #222222;
+}
+.home__form form {
+  padding: 2.1875rem 1.25rem 2.25rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.home__form form label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  margin-bottom: 0.625rem;
+}
+.home__form form input {
+  display: flex;
+  width: 100%;
+  background-color: inherit;
+  color: #686868;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  border: none;
+  padding: 0.875rem 0;
+  border-bottom: 0.125rem solid #bead8e;
+  margin-bottom: 1.875rem;
+  outline: none;
+}
+.home__form form input::-webkit-calendar-picker-indicator {
+  position: absolute;
+  justify-self: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("../icons/calendar.png");
+}
+.home__form form input::-webkit-datetime-edit {
+  position: absolute;
+  left: 50px;
+}
+.home__form form button {
+  margin-top: 1.125rem;
+  width: 15.625rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__describe {
+  padding: 2.375rem 1.875rem 10.9375rem 1.25rem;
+  background-color: #f9f9f9;
+}
+.about__describe h2 {
+  color: #777777;
+  margin-bottom: 2rem;
+}
+.about__describe h3 {
+  margin-bottom: 1rem;
+}
+.about__describe p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  margin-bottom: 1.5rem;
+}
+.about__describe button {
+  width: 13.5rem;
+}
+.about__container {
+  position: relative;
+  top: -7.1875rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 0 3.25rem;
+}
+.about__container__white {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-image: url("../icons/team-background.png");
+  background-repeat: no-repeat;
+  background-size: 9rem 6.5625rem;
+  background-position: top right;
+  margin-bottom: 2.8125rem;
+}
+.about__container__black {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  color: #ffffff;
+  padding-top: 3.375rem;
+  padding-bottom: 2.375rem;
+}
+.about__container h4 {
+  margin-top: 1.8462rem;
+  margin-bottom: 1.3125rem;
+}
+.about__container p {
+  padding: 0 2.1875rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+.about__img {
+  margin-bottom: 3.375rem;
 }
 
 html,
@@ -101,6 +231,7 @@ h2 {
   font-size: 0.81rem;
   line-height: 1.125rem;
   letter-spacing: 0.175rem;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -110,10 +241,49 @@ h3 {
   font-size: 3.3rem;
   line-height: 3.75rem;
   letter-spacing: -0.075rem;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.0563rem;
 }
 
 .hidden {
   display: none;
+}
+
+.btn {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.175rem;
+  text-transform: uppercase;
+  background-color: #333333;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.33);
+  width: 13.5625rem;
+  height: 3.75rem;
+  padding: 1.375rem;
+}
+.btn__primary {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.175rem;
+  text-transform: uppercase;
+  background-color: #bead8e;
+  border: none;
+  color: #ffffff;
+  padding: 1.375rem;
 }
 
 a,

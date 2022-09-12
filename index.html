@@ -33,52 +33,59 @@
     </header>
     <main>
       <section class="home">
-        <div>
+        <div class="home__describe">
           <h2>THE ULTIMATE LUXURY EXPERIENCE</h2>
           <h3>The Perfect Base For You</h3>
-          <div class="home__btns">
-            <button>TAKE A TOUR</button>
-            <button>LEARN MORE</button>
+          <div class="home__describe__btns">
+            <button class="btn__primary">TAKE A TOUR</button>
+            <button class="btn">LEARN MORE</button>
           </div>
         </div>
-        <form action="#">
-          <label for="arrival">Arrival Date</label>
-          <input type="date" id="arrival" name="arrival" />
-          <label for="departure">LeDeparture Date</label>
-          <input type="date" name="departure" id="departure" />
-          <button>CHECK AVAILABILITY</button>
+        <div class="home__form">
+          <form action="#">
+            <label for="arrival">Arrival Date</label>
+            
+                <input type="date" id="arrival" name="arrival" class="datepicker__input"/>
+     
+            <label for="departure">LeDeparture Date</label>
+            <input type="date" name="departure" id="departure" />
+          <button class="btn__primary">CHECK AVAILABILITY</button>
         </form>
+        </div>
+        
       </section>
 
       <section class="about">
         <div class="about__describe">
           <h2>about us</h2>
-          <h3>Discover Our underground</h3>
+          <h3>Discover Our underground.</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
-          <button>BOOK NOW</button>
+          <button class="btn__primary">BOOK NOW</button>
         </div>
-        <img src="./img/none.png" alt="" />
         <div class="about__container">
-          <img src="./icons/team-main.png" alt="team-icon" />
-          <h4>Strong Team</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor.
-          </p>
-        </div>
-        <img src="./img/none.png" alt="" />
-        <div class="about__container__black">
-          <img src="./icons/calendar-large.png" alt="" />
-          <h4>Luxury Room</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor.
-          </p>
+            <img src="./img/none.png" alt="" class="about__img"/>
+            <div class="about__container__white">
+                <img src="./icons/team.png" alt="team-icon" />
+                <h4>Strong Team</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor.
+                </p>
+            </div>
+            <img src="./img/none.png" alt="" />
+            <div class="about__container__black">
+                <img src="./icons/calendar-large.png" alt="" />
+                <h4>Luxury Room</h4>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor.
+                </p>
+            </div>
         </div>
       </section>
 
