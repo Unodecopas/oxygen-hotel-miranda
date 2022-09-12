@@ -1,18 +1,79 @@
 .home {
-  background-color: $bg-semi;
+  background-color: $bg-light;
   color: $font-light;
-  padding: 4.68rem 0 4.68rem 1.25rem;
-  & h2,
-  h3 {
-    margin-bottom: 2.5rem;
+  padding-bottom: 3.75rem;
+  &__describe {
+    background-color: $bg-semi;
+    padding-top: 4.6875rem;
+    padding-bottom: 4.6875rem;
+    & h2,
+    h3 {
+      padding-left: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    &__btns {
+      padding-left: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      & button {
+        width: 13.5625rem;
+        height: 3.75rem;
+        padding: 1.375rem;
+      }
+    }
   }
-  &__btns {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    & button {
-      width: 13.5625rem;
-      height: 3.75rem;
+
+  &__form {
+    padding-bottom: 2.25rem;
+    width: 100%;
+    background-color: $bg-dark;
+    & form {
+      padding: 2.1875rem 1.25rem 2.25rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      & label {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+        margin-bottom: 0.625rem;
+      }
+
+      & input {
+        display: flex;
+        width: 100%;
+        background-color: inherit;
+        color: $font-medium;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        border: none;
+        padding: 0.875rem 0;
+        border-bottom: 0.125rem solid $colored;
+        margin-bottom: 1.875rem;
+        outline: none;
+        &::-webkit-calendar-picker-indicator {
+          position: absolute;
+          justify-self: center;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+          background-image: url("../icons/calendar.png");
+        }
+        &::-webkit-datetime-edit {
+          position: absolute;
+          left: 50px;
+        }
+      }
+
+      & button {
+        margin-top: 1.125rem;
+        width: 15.625rem;
+      }
     }
   }
 }
