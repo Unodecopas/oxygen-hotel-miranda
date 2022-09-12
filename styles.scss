@@ -1,0 +1,39 @@
+@import "./styles/colors.scss";
+@import "./styles/header.scss";
+@import "./styles/footer.scss";
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+html,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+}
+.hidden {
+  display: none;
+}
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+#subtitle {
+  font-weight: 400;
+}
