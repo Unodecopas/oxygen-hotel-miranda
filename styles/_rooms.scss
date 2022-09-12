@@ -1,0 +1,71 @@
+.rooms {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-bottom: 1.875rem;
+  & h2 {
+    color: $font-semi;
+    text-align: center;
+  }
+  & h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  &__icons {
+    position: relative;
+    bottom: -20px;
+    background-color: $bg-light;
+    width: fit-content;
+    & ul {
+      padding: 0.9375rem 1.625rem;
+      display: flex;
+      place-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+    }
+  }
+  & .slider img {
+    width: 375px;
+    height: 244px;
+  }
+  &__price {
+    background-color: $bg-light;
+    position: relative;
+    width: 335px;
+    top: -20px;
+    padding: 1.1875rem 1.25rem;
+    & h4 {
+      font-family: "Old Standard TT";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+      letter-spacing: -0.075rem;
+      color: $font-dark;
+      text-align: center;
+      margin-bottom: 0.75rem;
+    }
+    & p {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.5rem;
+      text-align: center;
+      color: $font-semi;
+      margin-bottom: 0.75rem;
+    }
+    & .price {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 2.6875rem;
+      text-align: center;
+      color: #bead8e;
+      &__small {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -208,6 +208,78 @@
   margin-bottom: 3.375rem;
 }
 
+.rooms {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding-bottom: 1.875rem;
+}
+.rooms h2 {
+  color: #777777;
+  text-align: center;
+}
+.rooms h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.rooms__icons {
+  position: relative;
+  bottom: -20px;
+  background-color: #ffffff;
+  width: fit-content;
+}
+.rooms__icons ul {
+  padding: 0.9375rem 1.625rem;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.rooms .slider img {
+  width: 375px;
+  height: 244px;
+}
+.rooms__price {
+  background-color: #ffffff;
+  position: relative;
+  width: 335px;
+  top: -20px;
+  padding: 1.1875rem 1.25rem;
+}
+.rooms__price h4 {
+  font-family: "Old Standard TT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.075rem;
+  color: #222222;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+.rooms__price p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 0.75rem;
+}
+.rooms__price .price {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.6875rem;
+  text-align: center;
+  color: #bead8e;
+}
+.rooms__price .price__small {
+  font-size: 1rem;
+}
+
 html,
 * {
   box-sizing: border-box;
