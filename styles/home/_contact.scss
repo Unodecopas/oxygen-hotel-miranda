@@ -1,0 +1,76 @@
+.contact {
+  margin-top: 3.75rem;
+  background-image: url("../../img/rectangulo22.jpg");
+  padding: 2rem 1.25rem 2.125rem 1.25rem;
+  & > img {
+    margin-bottom: 2.9375rem;
+  }
+  & p {
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #777777;
+    margin-bottom: 2rem;
+  }
+  &__social {
+    display: flex;
+    gap: 0.625rem;
+    margin-bottom: 2rem;
+    & img {
+      border: 8px solid transparent;
+      &:hover {
+        border: 8px solid $colored;
+      }
+    }
+  }
+  &__services {
+    & h4 {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 1.5rem;
+      color: $font-dark;
+    }
+    & ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 1.25rem;
+      gap: 1.1875rem;
+      margin-bottom: 2rem;
+      & li {
+        list-style: "+ ";
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 48px;
+        color: #777777;
+      }
+    }
+  }
+  &__address {
+    & > h4 {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 2.125rem;
+    }
+    &__container {
+      margin-top: 3.6875rem;
+      & img {
+        float: left;
+        margin-right: 1.3438rem;
+      }
+      & h4 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      & a {
+        clear: left;
+        text-align: center;
+        font-family: "Roboto";
+        color: $font-semi;
+      }
+    }
+  }
+}
