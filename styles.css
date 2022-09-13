@@ -318,6 +318,60 @@
   margin-bottom: 2rem;
 }
 
+.foods {
+  padding: 1.25rem 0 3.75rem 1.25rem;
+}
+.foods > img {
+  margin-left: auto;
+  display: block;
+}
+.foods h2 {
+  color: #686868;
+  margin-bottom: 1.5rem;
+}
+.foods h3 {
+  margin-bottom: 2.375rem;
+}
+.foods__article {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-right: 1.25rem;
+}
+.foods__article img {
+  width: 120px;
+  height: 120px;
+  margin-right: 1.875rem;
+}
+.foods__article__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.foods__article__description h4 {
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.72px;
+  color: #222222;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.foods__article__description p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222222;
+}
+.foods__icons {
+  padding-right: 1.25rem;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  margin-bottom: 3.75rem;
+}
+
 html,
 * {
   box-sizing: border-box;
