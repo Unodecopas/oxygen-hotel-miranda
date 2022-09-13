@@ -1,0 +1,82 @@
+.aboutHome {
+  &__title {
+    background-color: $bg-semi;
+    padding: 4.6875rem 0 6rem 1.25rem;
+    & h2 {
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 2.8px;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+    & h3 {
+      font-size: 56px;
+      line-height: 60px;
+      letter-spacing: -1.2px;
+      color: #ffffff;
+    }
+  }
+  &__nav {
+    width: 156px;
+    background-color: $bg-light;
+    position: relative;
+    top: -3.0625rem;
+    left: 12.4375rem;
+    padding: 1rem 1.5rem;
+    & p {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.0625rem;
+      letter-spacing: -0.03rem;
+      color: #222222;
+    }
+    &__normal {
+      padding-right: 5px;
+    }
+    &__colored {
+      padding-left: 5px;
+      color: $colored;
+    }
+  }
+  &__describe {
+    padding: 60px 20px 87px 20px;
+    & h3 {
+      margin-top: 2.25rem;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -1.16px;
+      color: #222222;
+      text-transform: none;
+    }
+    &__imgs {
+      margin-top: 3.1875rem;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+      place-items: center;
+    }
+  }
+}
+
+.imgs__container {
+  width: 100%;
+  padding: 43px 7px 35px 14px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  & h2 {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+  &:hover {
+    background-color: $colored;
+    color: $font-light;
+  }
+}

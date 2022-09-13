@@ -494,6 +494,87 @@
   margin-top: 2rem;
 }
 
+.aboutHome__title {
+  background-color: #333333;
+  padding: 4.6875rem 0 6rem 1.25rem;
+}
+.aboutHome__title h2 {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.aboutHome__title h3 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #ffffff;
+}
+.aboutHome__nav {
+  width: 156px;
+  background-color: #ffffff;
+  position: relative;
+  top: -3.0625rem;
+  left: 12.4375rem;
+  padding: 1rem 1.5rem;
+}
+.aboutHome__nav p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.0625rem;
+  letter-spacing: -0.03rem;
+  color: #222222;
+}
+.aboutHome__nav__normal {
+  padding-right: 5px;
+}
+.aboutHome__nav__colored {
+  padding-left: 5px;
+  color: #bead8e;
+}
+.aboutHome__describe {
+  padding: 60px 20px 87px 20px;
+}
+.aboutHome__describe h3 {
+  margin-top: 2.25rem;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -1.16px;
+  color: #222222;
+  text-transform: none;
+}
+.aboutHome__describe__imgs {
+  margin-top: 3.1875rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  place-items: center;
+}
+
+.imgs__container {
+  width: 100%;
+  padding: 43px 7px 35px 14px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+.imgs__container h2 {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.imgs__container:hover {
+  background-color: #bead8e;
+  color: #ffffff;
+}
+
 html,
 * {
   box-sizing: border-box;
