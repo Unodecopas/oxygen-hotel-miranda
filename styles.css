@@ -372,6 +372,38 @@
   margin-bottom: 3.75rem;
 }
 
+.goals {
+  background-color: #222222;
+  padding: 3rem 5.125rem;
+}
+.goals__container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  margin-bottom: 3.75rem;
+}
+.goals__container img {
+  margin-bottom: 1rem;
+}
+.goals__container .goals__text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 136.4%;
+  text-align: center;
+}
+.goals__container .goals__subtitle {
+  font-size: 1rem;
+  line-height: 0;
+}
+.goals__container p {
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: #999999;
+}
+
 html,
 * {
   box-sizing: border-box;
