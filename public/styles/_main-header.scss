@@ -1,0 +1,44 @@
+.main {
+  &__title {
+    background-color: $bg-semi;
+    padding: 4.6875rem 1.25rem 6rem 1.25rem;
+    & h2 {
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 2.8px;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+    & h3 {
+      font-size: 56px;
+      line-height: 60px;
+      letter-spacing: -1.2px;
+      color: #ffffff;
+    }
+  }
+  &__nav {
+    width: 156px;
+    background-color: $bg-light;
+    position: relative;
+    top: -3.0625rem;
+    left: 12.4375rem;
+    padding: 1rem 0;
+    text-align: center;
+    & p {
+      font-family: "Archivo";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.0625rem;
+      letter-spacing: -0.03rem;
+      color: #222222;
+    }
+    &__normal {
+      padding-right: 5px;
+    }
+    &__colored {
+      padding-left: 5px;
+      color: $colored;
+    }
+  }
+}

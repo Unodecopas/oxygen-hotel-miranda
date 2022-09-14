@@ -31,7 +31,7 @@
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
 }
 .header__title__menu {
-  background: url("/icons/menu-burger.png");
+  background: url("/public/icons/menu-burger.png");
   background-position: center;
   background-repeat: no-repeat;
   width: 1.25rem;
@@ -73,78 +73,6 @@
   height: 36px;
   width: 36px;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.about__describe {
-  padding: 2.375rem 1.875rem 10.9375rem 1.25rem;
-  background-color: #f9f9f9;
-}
-.about__describe h2 {
-  color: #777777;
-  margin-bottom: 2rem;
-}
-.about__describe h3 {
-  margin-bottom: 1rem;
-}
-.about__describe p {
-  font-family: "Archivo";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #777777;
-  margin-bottom: 1.5rem;
-}
-.about__describe button {
-  width: 13.5rem;
-}
-.about__container {
-  position: relative;
-  top: -7.1875rem;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  padding: 0 3.25rem;
-}
-.about__container__white {
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  background-image: url("/public/icons/team-background.png");
-  background-repeat: no-repeat;
-  background-size: 9rem 6.5625rem;
-  background-position: top right;
-  margin-bottom: 2.8125rem;
-}
-.about__container__black {
-  background-color: #222222;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  color: #ffffff;
-  padding-top: 3.375rem;
-  padding-bottom: 2.375rem;
-}
-.about__container h4 {
-  margin-top: 1.8462rem;
-  margin-bottom: 1.3125rem;
-}
-.about__container p {
-  padding: 0 2.1875rem;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.375rem;
-  text-align: center;
-}
-.about__img {
-  margin-bottom: 3.375rem;
 }
 
 .contact {
@@ -218,6 +146,121 @@
   text-align: center;
   font-family: "Roboto";
   color: #777777;
+}
+
+.main__title {
+  background-color: #333333;
+  padding: 4.6875rem 1.25rem 6rem 1.25rem;
+}
+.main__title h2 {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.main__title h3 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  color: #ffffff;
+}
+.main__nav {
+  width: 156px;
+  background-color: #ffffff;
+  position: relative;
+  top: -3.0625rem;
+  left: 12.4375rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+.main__nav p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.0625rem;
+  letter-spacing: -0.03rem;
+  color: #222222;
+}
+.main__nav__normal {
+  padding-right: 5px;
+}
+.main__nav__colored {
+  padding-left: 5px;
+  color: #bead8e;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__describe {
+  padding: 2.375rem 1.875rem 10.9375rem 1.25rem;
+  background-color: #f9f9f9;
+}
+.about__describe h2 {
+  color: #777777;
+  margin-bottom: 2rem;
+}
+.about__describe h3 {
+  margin-bottom: 1rem;
+}
+.about__describe p {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  margin-bottom: 1.5rem;
+}
+.about__describe button {
+  width: 13.5rem;
+}
+.about__container {
+  position: relative;
+  top: -7.1875rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 0 3.25rem;
+}
+.about__container__white {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-image: url("/public/icons/team-background.png");
+  background-repeat: no-repeat;
+  background-size: 9rem 6.5625rem;
+  background-position: top right;
+  margin-bottom: 2.8125rem;
+}
+.about__container__black {
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  color: #ffffff;
+  padding-top: 3.375rem;
+  padding-bottom: 2.375rem;
+}
+.about__container h4 {
+  margin-top: 1.8462rem;
+  margin-bottom: 1.3125rem;
+}
+.about__container p {
+  padding: 0 2.1875rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  text-align: center;
+}
+.about__img {
+  margin-bottom: 3.375rem;
 }
 
 .facilities {
@@ -494,51 +537,10 @@
   margin-top: 2rem;
 }
 
-.aboutHome__title {
-  background-color: #333333;
-  padding: 4.6875rem 0 6rem 1.25rem;
-}
-.aboutHome__title h2 {
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 2.8px;
-  color: #ffffff;
-  margin-bottom: 1rem;
-}
-.aboutHome__title h3 {
-  font-size: 56px;
-  line-height: 60px;
-  letter-spacing: -1.2px;
-  color: #ffffff;
-}
-.aboutHome__nav {
-  width: 156px;
-  background-color: #ffffff;
-  position: relative;
-  top: -3.0625rem;
-  left: 12.4375rem;
-  padding: 1rem 1.5rem;
-}
-.aboutHome__nav p {
-  font-family: "Archivo";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.0625rem;
-  letter-spacing: -0.03rem;
-  color: #222222;
-}
-.aboutHome__nav__normal {
-  padding-right: 5px;
-}
-.aboutHome__nav__colored {
-  padding-left: 5px;
-  color: #bead8e;
-}
-.aboutHome__describe {
+.describe {
   padding: 60px 20px 87px 20px;
 }
-.aboutHome__describe h3 {
+.describe h3 {
   margin-top: 2.25rem;
   font-size: 32px;
   line-height: 40px;
@@ -547,7 +549,7 @@
   color: #222222;
   text-transform: none;
 }
-.aboutHome__describe__imgs {
+.describe__imgs {
   margin-top: 3.1875rem;
   width: 100%;
   display: grid;
