@@ -1,0 +1,16 @@
+.aboutFacilities {
+  padding: 3rem 1.25rem 4.5625rem 1.25rem;
+  background-color: $bg-dark;
+  color: $font-light;
+  & h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  & h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: #ffffff;
+  }
+}

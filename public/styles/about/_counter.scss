@@ -1,0 +1,53 @@
+.counter {
+  padding: 3.75rem 1.25rem 0 1.25rem;
+  & h2 {
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #777777;
+    margin-bottom: 1.5rem;
+  }
+  & h3 {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: #222222;
+    text-transform: capitalize;
+    margin-bottom: 2.25rem;
+  }
+  & > img {
+    width: 100%;
+    height: 230px;
+  }
+  &__container {
+    display: flex;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    &__title {
+      margin-right: 3.125rem;
+      margin-left: 0.875rem;
+      flex-grow: 1;
+      & .counter__title {
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 60px;
+        /* or 100% */
+
+        letter-spacing: -1.8px;
+
+        color: #222222;
+      }
+      & .counter__subtitle {
+        color: $font-medium;
+        font-size: 1rem;
+      }
+    }
+    & .arrow {
+      width: 2rem;
+      height: 0.9688rem;
+      margin-right: 1.25rem;
+    }
+  }
+}
