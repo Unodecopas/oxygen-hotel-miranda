@@ -19,13 +19,15 @@
       margin-right: 2rem;
       cursor: pointer;
     }
-
     &__logo {
-      display: flex;
-      place-items: center;
-      gap: 0.8rem;
       flex-grow: 1;
-      cursor: pointer;
+      & a {
+        display: flex;
+        place-items: center;
+        gap: 0.8rem;
+        flex-grow: 1;
+        cursor: pointer;
+      }
     }
     &__icons {
       display: flex;
