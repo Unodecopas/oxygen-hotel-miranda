@@ -194,6 +194,9 @@
   width: 100%;
   height: 370px;
 }
+.slider-features .swiper-slide {
+  padding-right: 32px;
+}
 .slider-features .swiper-slide .slide__imgs {
   padding-left: 19px;
 }
@@ -240,6 +243,27 @@
 
 .slideThree {
   background-image: url("../img/03.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 143px 130px;
+}
+
+.slideFour {
+  background-image: url("../img/04.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 143px 130px;
+}
+
+.slideFive {
+  background-image: url("../img/05.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 143px 130px;
+}
+
+.slideSix {
+  background-image: url("../img/06.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
@@ -366,7 +390,7 @@
 }
 
 .facilities {
-  padding: 3.75rem 1.5625rem 1.875rem 1.75rem;
+  padding: 3.75rem 2rem 1.875rem 1.75rem;
 }
 .facilities h2 {
   text-align: center;
