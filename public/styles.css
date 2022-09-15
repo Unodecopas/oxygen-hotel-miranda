@@ -54,6 +54,10 @@
   cursor: pointer;
 }
 .header__navbar {
+  position: absolute;
+  top: 84px;
+  width: 100%;
+  background-color: #ffffff;
   padding: 2rem 0 1.625rem 1.31rem;
 }
 .header__navbar ul {
@@ -73,6 +77,12 @@
   height: 36px;
   width: 36px;
   box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
+}
+
+.menu__active {
+  background: url("/public/icons/menu-close.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact {
