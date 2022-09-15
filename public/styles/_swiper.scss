@@ -22,3 +22,17 @@
 .swiper-button-next::after {
   display: none;
 }
+.slider-pagination {
+  z-index: 3;
+  border: 2px solid red;
+}
+#slider {
+  width: 100%;
+  height: 375px;
+  & .swiper-slide {
+    & img {
+      width: 335px;
+      height: 335px;
+    }
+  }
+}
