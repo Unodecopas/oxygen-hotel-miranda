@@ -166,12 +166,13 @@
   color: #ffffff;
 }
 .main__nav {
-  width: 156px;
+  width: max-content;
   background-color: #ffffff;
   position: relative;
   top: -3.0625rem;
-  left: 12.4375rem;
-  padding: 1rem 0;
+  margin-right: 20px;
+  margin-left: auto;
+  padding: 1rem 1.5rem;
   text-align: center;
 }
 .main__nav p {
