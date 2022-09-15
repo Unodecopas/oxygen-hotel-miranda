@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>HOME - HOTEL MIRANDA</title>
   </head>
@@ -68,7 +72,7 @@
           <button class="btn__primary">BOOK NOW</button>
         </div>
         <div class="about__container">
-            <img src="./img/none.png" alt="" class="about__img"/>
+            <img src="./img/hotel02.jpg" alt="" class="about__img"/>
             <div class="about__container__white">
                 <img src="./icons/team.png" alt="team-icon" />
                 <h4>Strong Team</h4>
@@ -77,7 +81,7 @@
                     eiusmod tempor.
                 </p>
             </div>
-            <img src="./img/none.png" alt="" />
+            <img src="./img/room01.jpg" alt="" />
             <div class="about__container__black">
                 <img src="./icons/calendar-large.png" alt="" />
                 <h4>Luxury Room</h4>
@@ -103,8 +107,27 @@
             <li><img src="./icons/bar.png" alt=""></li>
         </ul>
         </div>
-        <div class="slider">
-            <img src="./img/none.png" alt="">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="img/room01.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/room02.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="./img/room04.jpg" alt="">
+            </div>
+            ...
+          </div>
+          <div class="swiper-button-prev">
+            <img src="./icons/left-arrow.png" alt="">
+          </div>
+          <div class="swiper-button-next">
+            <img src="./icons/right-arrow.png" alt="">
+          </div>
         </div>
         <div class="rooms__price">
             <h4>Minimal duplex Room</h4>
@@ -144,14 +167,14 @@
         <h2>menu</h2>
         <h3>Our Foods menu</h3>
         <div class="foods__article">
-            <img src="./img/none.png" alt="">
+            <img src="./img/eggs-small.jpg" alt="" >
             <div class="foods__article__description">
                 <h4>Eggs & Bacon</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
             </div>
         </div>
         <div class="foods__article">
-            <img src="./img/none.png" alt="">
+            <img src="./img/tea-small.jpg" alt="">
             <div class="foods__article__description">
                 <h4>Tea or Coffee</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -159,7 +182,7 @@
 
         </div>
         <div class="foods__article">
-            <img src="./img/none.png" alt="">
+            <img src="./img/chia-small.jpg" alt="">
             <div class="foods__article__description">
                 <h4>Chia Oatmeal</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
@@ -247,6 +270,7 @@
         <p>Copyright By@Oxygen - 2020</p>
         <p><a href="#">Terms of use</a>  | <a href="#">Privacy Enviromental Policy</a></p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

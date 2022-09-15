@@ -16,6 +16,7 @@
     bottom: -20px;
     background-color: $bg-light;
     width: fit-content;
+    z-index: 2;
     & ul {
       padding: 0.9375rem 1.625rem;
       display: flex;
@@ -24,15 +25,13 @@
       gap: 1.25rem;
     }
   }
-  & .slider img {
-    width: 375px;
-    height: 244px;
-  }
+
   &__price {
     background-color: $bg-light;
     position: relative;
     width: 335px;
     top: -20px;
+    z-index: 2;
     padding: 1.1875rem 1.25rem;
     & h4 {
       font-family: "Old Standard TT";

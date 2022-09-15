@@ -65,6 +65,10 @@
       line-height: 1.375rem;
       text-align: center;
     }
+    & > img {
+      width: 270px;
+      height: 300px;
+    }
   }
   &__img {
     margin-bottom: 3.375rem;
