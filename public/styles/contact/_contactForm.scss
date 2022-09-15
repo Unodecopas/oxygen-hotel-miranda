@@ -1,0 +1,49 @@
+.contactForm {
+  padding: 1.875rem 1.25rem 0 1.25rem;
+  display: flex;
+  flex-direction: column;
+  &__input {
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-bottom: 1rem;
+    padding: 1.5625rem 0 1.4375rem 1.3125rem;
+    & input {
+      margin-left: 1.0625rem;
+      background-color: transparent;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      padding: 0.25rem 0.5rem;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  & button {
+    margin: 1.25rem 2.375rem;
+  }
+  &__textarea {
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    place-items: start;
+    padding-left: 1.3125rem;
+    padding-top: 1.5625rem;
+    & textarea {
+      margin-left: 1.0625rem;
+      background-color: transparent;
+      border: none;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

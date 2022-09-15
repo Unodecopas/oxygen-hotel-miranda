@@ -1,0 +1,49 @@
+.contactUs {
+  padding: 1.5625rem 1.25rem 1.875rem 1.25rem;
+  &__container {
+    margin-bottom: 2.9063rem;
+    display: flex;
+    gap: 1.6875rem;
+    height: 189px;
+    padding-right: 0.75rem;
+    align-items: center;
+    & img {
+      width: 40px;
+      height: 40px;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      & h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222222;
+        margin-bottom: 20px;
+      }
+      & p {
+        font-family: "Roboto";
+        font-size: 0.8rem;
+        color: $font-semi;
+      }
+    }
+  }
+}
+.address {
+  background-image: url("/public/img/01.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+.phone {
+  background-image: url("/public/img/02.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.map {
+  background-image: url("/public/img/03.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
