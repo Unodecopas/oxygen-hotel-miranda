@@ -1,0 +1,44 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.75rem;
+  background-color: $bg-dark;
+  place-items: center;
+  padding: 3rem 1.25rem;
+  & h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #bdac8d;
+    margin-bottom: 1.5625rem;
+  }
+  & h3 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+    color: #ffffff;
+    margin-bottom: 3rem;
+  }
+  & .rooms__icons {
+    position: relative;
+    top: -20px;
+    z-index: 999;
+  }
+  & .swiper {
+    width: 100%;
+    margin-bottom: 0;
+    &-button-next {
+      & img {
+        padding: 0;
+      }
+    }
+    &-button-prev {
+      & img {
+        padding-left: 0;
+      }
+    }
+  }
+}

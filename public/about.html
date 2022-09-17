@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>ABOUT - HOTEL MIRANDA</title>
   </head>
@@ -48,7 +52,9 @@
       </section>
       
         <section class="describe">
-          <img src="./img/none.png" alt="" />
+          <video width="320" height="240" autoplay muted controls>
+          <source src="./video/hotel.mp4" />
+        </video>
           <h3>
             Hello. Our hotel has benn present for over 20 years. We make the
             best for all our customers
@@ -59,7 +65,7 @@
               <h2>BREAKFAST</h2>
             </div>
             <div class="imgs__container">
-              <img src="./icons/plane.svg" alt="" />
+              <img src="./icons/plane.svg" alt="" id="plane"/>
               <h2>AIRPORT PICKUP</h2>
             </div>
             <div class="imgs__container">
@@ -74,7 +80,7 @@
         </section>
       </section>
       <section class="restaurant">
-        <img src="./img/none.png" alt="" />
+        <img src="./img/luxury.jpg" alt="" />
         <h2>restaurant</h2>
         <h3>Get Restaurant Facilities & Many Other More</h3>
         <p>
@@ -88,8 +94,82 @@
       <section class="aboutFacilities">
         <h2>FACILITIES</h2>
         <h3>CORE FEATURES</h3>
-        <div class="slider">
-          <h3>Have High Rating</h3>
+        <div class="swiper slider-features">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slideOne">
+              <div class="slide__imgs">
+                <img src="./icons/stars.png" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>Have High Rating</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide slideTwo">
+              <div class="slide__imgs">
+                <img src="./icons/clock.svg" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>Quiet Hours</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide slideThree">
+              <div class="slide__imgs">
+                <img src="./icons/map.png" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>have High rating</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide slideFour">
+              <div class="slide__imgs">
+                <img src="./icons/cancel-clock.svg" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>Free Cancellation</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide slideFive">
+              <div class="slide__imgs">
+                <img src="./icons/card.svg" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>Payment Options</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide slideSix">
+              <div class="slide__imgs">
+                <img src="./icons/medal.svg" alt="" />
+              </div>
+              <div class="slide__text">
+                <h4>Special Offers</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </section>
 
@@ -120,7 +200,7 @@
           </div>
           <img src="./icons/arrowRight.png" alt="" class="arrow" />
         </div>
-        <img src="./img/none.png" alt="" />
+        <img src="./img/team.jpg" alt="" />
       </section>
       <section class="contact">
         <img src="./icons/logo-large.png" alt="" />
@@ -131,7 +211,7 @@
         </p>
         <div class="contact__social">
           <img src="./icons/social-fb.png" alt="" />
-          <img src="./icons/social-tw.png" alt="" />
+          <img src="./icons/social-tw.svg" alt="" />
           <img src="./icons/social-be.png" alt="" />
           <img src="./icons/social-in.png" alt="" />
           <img src="./icons/social-yt.png" alt="" />
@@ -178,6 +258,8 @@
         <a href="#">Privacy Enviromental Policy</a>
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <script src="main.js"></script>
   </body>
 </html>

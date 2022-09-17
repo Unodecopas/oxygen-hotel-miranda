@@ -17,11 +17,14 @@
     gap: 1.25rem;
     place-items: center;
   }
+  & video {
+    width: 100%;
+  }
 }
 
 .imgs__container {
   width: 100%;
-  padding: 43px 7px 35px 14px;
+  padding: 43px 0 35px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -43,4 +46,18 @@
     background-color: $colored;
     color: $font-light;
   }
+  &:hover {
+    background-color: $colored;
+    & img {
+      filter: brightness(2);
+    }
+    & #plane {
+      filter: none;
+    }
+  }
+}
+
+#plane {
+  filter: invert(28%) sepia(16%) saturate(475%) hue-rotate(0deg) brightness(92%)
+    contrast(89%);
 }

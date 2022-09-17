@@ -2,8 +2,10 @@
   width: 375px;
   height: 244px;
   &-slide {
-    & img {
-      width: 375px;
+    & > img {
+      display: block;
+      margin: auto;
+      width: 335px;
       height: 244px;
     }
   }
@@ -71,37 +73,37 @@
 }
 
 .slideOne {
-  background-image: url("../img/01.svg");
+  background-image: url("/public/img/01.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
 }
 .slideTwo {
-  background-image: url("../img/02.svg");
+  background-image: url("/public/img/02.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
 }
 .slideThree {
-  background-image: url("../img/03.svg");
+  background-image: url("/public/img/03.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
 }
 .slideFour {
-  background-image: url("../img/04.svg");
+  background-image: url("/public/img/04.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
 }
 .slideFive {
-  background-image: url("../img/05.svg");
+  background-image: url("/public/img/05.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
 }
 .slideSix {
-  background-image: url("../img/06.svg");
+  background-image: url("/public/img/06.svg");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 143px 130px;
