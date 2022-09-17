@@ -833,6 +833,10 @@
 .contactUs {
   padding: 1.5625rem 1.25rem 1.875rem 1.25rem;
 }
+.contactUs > img {
+  display: block;
+  margin: auto;
+}
 .contactUs__container {
   margin-bottom: 2.9063rem;
   display: flex;
@@ -866,21 +870,21 @@
   background-image: url("/public/img/01.svg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: auto;
+  background-size: 224px 234px;
 }
 
 .phone {
   background-image: url("/public/img/02.svg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 224px 234px;
 }
 
 .map {
   background-image: url("/public/img/03.svg");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 224px 234px;
 }
 
 .contactForm {
