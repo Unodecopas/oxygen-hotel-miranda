@@ -887,6 +887,23 @@
   background-size: 224px 234px;
 }
 
+.maps__options {
+  margin-top: 1rem;
+}
+
+#stringAddress {
+  background-color: #f8f8f8;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 1rem 1.5rem;
+}
+
 .contactForm {
   padding: 1.875rem 1.25rem 0 1.25rem;
   display: flex;
@@ -1170,6 +1187,13 @@ li {
 
 #subtitle {
   font-weight: 400;
+}
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
 }
 
 /*# sourceMappingURL=styles.css.map */

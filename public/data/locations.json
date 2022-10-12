@@ -1,0 +1,38 @@
+[
+  {
+    "lat": 40.343842,
+    "lng": -3.535011,
+    "name": "Madrid",
+    "com": 12
+  },
+  {
+    "lat": 40.521674,
+    "lng": -3.89389,
+    "name": "Madrid Las Rozas",
+    "com": 12
+  },
+  {
+    "lat": 37.896801,
+    "lng": -4.785207,
+    "name": "Cordoba Center",
+    "com": 0
+  },
+  {
+    "lat": 37.881169,
+    "lng": -4.77825,
+    "name": "Cordoba Mezquita",
+    "com": 0
+  },
+  {
+    "lat": 37.183991,
+    "lng": -3.597476,
+    "name": "Granada Albaicin",
+    "com": 0
+  },
+  {
+    "lat": 37.161341,
+    "lng": -3.594084,
+    "name": "Granada Center",
+    "com": 0
+  }
+]

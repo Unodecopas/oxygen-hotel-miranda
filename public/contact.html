@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="./maps.js"></script>
     <title>CONTACT - HOTEL MIRANDA</title>
   </head>
   <body>
@@ -70,7 +77,19 @@
             <p>jobs.webmail@mail.com</p>
           </div>
         </div>
-        <img src="./img/none.png" alt="" />
+        <div id="map"></div>
+        <div class="maps__options">
+          <input
+            type="text"
+            id="stringAddress"
+            placeholder="Enter your current address"
+          />
+          <select name="" id="comunidadAutonoma">
+            <option value="" selected disabled hidden>Select one ...</option>
+          </select>
+          <button id="findNearestLocationButton">Find Nearest Location</button>
+          <div id="nearestLocationsList"></div>
+        </div>
       </section>
       <form action="" class="contactForm">
         <div class="contactForm__input">
@@ -158,5 +177,9 @@
       </p>
     </footer>
     <script src="main.js"></script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTT3QwPTi3AQoou5rfioQCT5cHOoGBnTE&callback=initMap"
+    ></script>
   </body>
 </html>
