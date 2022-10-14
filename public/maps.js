@@ -155,12 +155,17 @@ function initMap() {
       // Markers 
       markerCluster.clearMarkers();
       const markers = [];
-      hotelLocations.forEach((position) => {
+      locations.forEach((position) => {
         if (position.com === cAIndex) {
           const marker = new google.maps.Marker({
             position: { lat: position.lat, lng: position.lng },
             name: position.name,
-            icon: icon,
+            label: {
+              text: "\uefe2", // codepoint from https://fonts.google.com/icons
+              fontFamily: "Material Icons",
+              color: "#ffffff",
+              fontSize: "18px",
+            },
           });
 
           marker.addListener("click", () => {
@@ -176,13 +181,17 @@ function initMap() {
 
       markerCluster.clearMarkers();
       const markers = [];
-      hotelLocations.forEach((position) => {
+      locations.forEach((position) => {
         const marker = new google.maps.Marker({
           position: { lat: position.lat, lng: position.lng },
           name: position.name,
-          icon: icon,
+          label: {
+            text: "\uefe2", // codepoint from https://fonts.google.com/icons
+            fontFamily: "Material Icons",
+            color: "#ffffff",
+            fontSize: "18px",
+          },
         });
-
         marker.addListener("click", () => {
           infoWindow.setContent(marker.name);
           infoWindow.open(map, marker);
